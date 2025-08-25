@@ -1,0 +1,13 @@
+{# custom_layout.html - Extend default Sphinx HTML layout for Home Depot Credit Card guide #}
+
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+    <meta name="google-site-verification" content="SfOIuzL9bJTnG1s15n1tw8mrW8WlYZXf4LA0cdqffuM" />
+    <meta name="msvalidate.01" content="671DFC03B959E91643B7D7567E37E46A" />
+    <meta name="description" content="Easily manage your Home Depot Credit Card at homedepot.com/mycard. Learn how to register your card, make secure payments, set up auto-pay, and track your spending — all in one place." />
+    <meta name="keywords" content="homedepot.com/mycard, Home Depot Credit Card login, Home Depot bill pay, register Home Depot card, Home Depot credit account, manage Home Depot card online" />
+    <meta name="robots" content="index, follow" />
+    <title>Manage Your Home Depot Credit Card at homedepot.com/mycard – Quick & Secure</title>
+    {{ super() }}
+{% endblock %}
